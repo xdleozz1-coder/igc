@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart Plate</title>
+  <link rel="stylesheet" href="plate.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <canvas id="bg"></canvas>
+
+  <a href="Index.html" class="home-btn">← Home</a>
+
+  <header class="hero">
+    <div class="hero-inner">
+      <h1>Smart Plate</h1>
+      <p class="hero-tagline">
+        A plate that shows the true colors of what you are eating.Apps or scanning not required,just your food on a
+        plate and clear numbers easy to understand how much calories you intake.
+      </p>
+      <p class="hero-sub">
+        No apps. No scanning. Just food on a plate—and clear numbers that actually make sense.
+      </p>
+      <button class="hero-btn" id="scrollIntro">Learn about the plate ↓</button>
+    </div>
+  </header>
+
+  <!-- 1. ABOUT THE SMART PLATE -->
+  <section class="section" id="intro">
+    <div class="section-header">
+      <h2>About the Smart Plate</h2>
+      <p class="section-tag">What it is and how it feels to use it</p>
+    </div>
+
+    <div class="section-grid">
+      <div class="section-text">
+        <p>
+          The smart plate is designed to look like your day to day plate,but inside the plate,there is a ring of thin weight sensors that are able to weigh the amount of food on the plate.
+
+        </p>
+        <p>
+          When food is placed on the plate,the sensors send the weight to a tiny processor hidden inside the base,this processors has the ability to use simple food models to estimate the calories based on the type of food and its weight.The results appear directly on the rim of the plate in a digital clock style font,grams displayed on the bottom while the calories are on the top.
+        </p>
+        <p>
+          The idea is that you don’t have to interrupt your meal by opening an app or type anything,you can simple eat like you normally would and still gain information on how much calories you are consuming.It’s meant to be natural and calm,not stressful like how most diets are.The colours are soft teal,warm orange and light blue so the whole experience feels like a lifestyle rather than a medical device.
+        </p>
+      </div>
+
+      <div class="section-media">
+        <div class="image-card">
+          <!-- PUT YOUR IMAGE HERE -->
+          <!-- Example: <img src="bananaPlate.jpg" alt="Smart Plate with fruit" /> -->
+          <img src="perfect_chips_with_cal_count.png" alt="Smart Plate" />
+          <div class="image-caption">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. WHY WE NEED A SMART PLATE -->
+  <section class="section alt" id="why">
+    <div class="section-header">
+      <h2>Why We Need a Smart Plate in Our Lives</h2>
+      <p class="section-tag">The real problem it tries to solve</p>
+    </div>
+
+    <div class="section-grid">
+      <div class="section-text">
+        <p>
+          Most people are not aware of how much they are consuming,some guess the portions or “eyeball” the calories and we often underestimate things such as snacks,sauces and extras.Apps can help but time and effort is sacrificed,you may have to scan barcodes,search for foods and log everything manually therefore it is likely that many give up after a few days.
+        </p>
+        <p>
+          Our smart plate removes that barrier,it doesn’t require you to change your routine,you can still eat at your table with a plate,the only difference is that now you have the access to see how much your food weigh and how many calories are included in your meal.This makes nutrition feel less forced and makes it much more easier and more simple.
+        </p>
+        <p>
+          For students,busy parents,athletes or anyone trying to improve their health,this can be a powerful tool.You may start to notice patterns on how quickly calories add up,how big your portions actually are,and how small changes can make a difference.Overtime the plate helps you build a more realistic sense of “enough” looks like.
+        </p>
+      </div>
+
+      <div class="section-media">
+        <div class="card-stack">
+          <div class="info-card tone-blue">
+            <h3>Everyday awareness</h3>
+            <p>
+              Instead of tracking once a month,the plate provides you a bit of awareness every single meal.
+            </p>
+          </div>
+          <div class="info-card tone-orange">
+            <h3>No extra steps</h3>
+            <p>
+              No need for logging anything as if you use a plate,you will have access to the data with no extra logging.
+            </p>
+          </div>
+          <div class="info-card tone-teal">
+            <h3>Realistic, not perfect</h3>
+            <p>
+              It's not about eating perfectly,it is about understanding your normal habits,making small changes which are realistic
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. HOW WE WILL PRODUCE IT -->
+  <section class="section" id="how">
+    <div class="section-header">
+      <h2>How We Will Produce the Smart Plate</h2>
+      <p class="section-tag">From idea to a real object on the table</p>
+    </div>
+
+    <div class="section-grid">
+      <div class="section-text">
+        <p>
+          To build the Smart plate,we combined three main parts,the ceramic body,the sensor system and the display including some electronics.Each part had to be small enough to fit inside while still being strong enough to survive daily usage.
+        </p>
+        <p>
+          First,starting with a ceramic shell,moulded with a thick base to make sure there is enough space to hide the electronics.Inside,we have placed a ring of load cells(small weight sensors),these are connected to a micro controller which has the ability to read the weight filter out noise like small movements or someone touching the table.
+        </p>
+        <p>
+          Next,we added a LED style display ring around the inner rim of the plate to show the grams and calories.The font is a digital clock style typeface but kept thin and modern to match the product.
+        </p>
+        <p>
+          Finally the whole system is sealed to make sure the electronics are safe from water and food particles.The plate is able to connect to an app if needed for saving history or to change food presets,but keep in mind that the app is not needed at all for the plate to work.Even on its own,it still manages to complete the main objective which is to show you what’s on your plate in a simple and honest way.
+        </p>
+      </div>
+
+      <div class="section-media">
+        <div class="image-card">
+          <!-- PUT ANOTHER IMAGE HERE IF YOU WANT (e.g. chips plate) -->
+          <!-- Example: <img src="chipsPlate.jpg" alt="Smart Plate with chips" /> -->
+          <img src="MECHANICALLAYERS.png" alt="Smart Plate production concept" />
+          <div class="image-caption">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>Visual assets belong to their respective owners.<br>
+      Design and content by the NutriMilan team.<br>
+      © 2025 NutriMilan. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="plate.js"></script>
+</body>
+
+</html>
